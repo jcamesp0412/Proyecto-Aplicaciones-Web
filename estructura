@@ -36,3 +36,86 @@ https://www.transition.style/#out:wipe:right
 https://plantillashtmlgratis.com/categoria/efectos-css/
 
 https://drive.google.com/thumbnail?id=
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Videojuegos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #444;
+        }
+        .item {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .item:last-child {
+            border-bottom: none;
+        }
+        .title {
+            font-size: 1.5em;
+            color: #007BFF;
+        }
+        .meta {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .score {
+            font-weight: bold;
+            color: #28a745;
+        }
+        .unfavorable {
+            color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>New and Notable</h1>
+        
+        <div class="item">
+            <div class="title">CIVILIZATION VII</div>
+            <div class="meta">Invincible (2021): Season 3</div>
+        </div>
+
+        <div class="item">
+            <div class="title">Kingdom Come: Deliverance II</div>
+            <div class="meta">Game</div>
+            <div class="meta score">Generally Favorable</div>
+            <div class="meta">Based on 55 Critic Reviews</div>
+        </div>
+
+        <div class="item">
+            <div class="title">Sid Meier's Civilization VII</div>
+            <div class="meta">Game</div>
+            <div class="meta score">Generally Favorable</div>
+            <div class="meta">Based on 76 Critic Reviews</div>
+        </div>
+
+        <div class="item">
+            <div class="title">Love Hurts</div>
+            <div class="meta">Movie</div>
+            <div class="meta score unfavorable">Generally Unfavorable</div>
+            <div class="meta">Based on 27 Critic Reviews</div>
+        </div>
+    </div>
+</body>
+</html>
