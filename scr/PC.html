@@ -1,106 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titulo 1</title>
+    <title>Página de Videojuegos</title>
     <style>
         body {
-            background-color: #1a1a1a;
-            color: #ffffff;
-            margin: 0;
-            padding: 0;
-            line-height: 1.5;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
         }
-
-        .div1 {
-            background: linear-gradient(#bf0040, #b700ff, #00ccff);
-            color: #fff;
-            padding: 60px 20px;
+        .cuadro {
+            max-width: 2000px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 0 auto;
+        }
+        h1 {
             text-align: center;
+            color: #444;
         }
-
-        .h1 {
-            font-size: 48px;
-            margin: 0;
-            font-weight: bold;
-            text-transform: uppercase;
-        }
-
-        .p {
-            font-size: 19px;
-            margin: 10px 0 0;
-        }
-
-        div {
-            background-color: #2C3138;
-            padding: 15px;
-            text-align: center;
-            top: 0;
-        }
-
-        div a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 20px;
-            font-size: 18px;
-            font-weight: 600;
-        }
-
-        .div2 {
-            padding: 40px 20px;
-            margin: 40px auto;
-            max-width: 1000px;
-            background-color: #2C3138;
-        }
-
-        h2 {
-            font-size: 32px;
-            color: #00ccff;
+        .separaciones {
             margin-bottom: 20px;
-            text-transform: uppercase;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .titulo1 {
+            font-size: 70px;
+            color: #000000;
+        }
+        .titulo2 {
+            font-size: 40px;
+            color: #007BFF;
+        }
+        .base {
+            font-size: 17px;
+            color: #666;
         }
 
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 12px;
-            margin-top: 20px;
+        .tabla{
+            margin: 0 auto;
+        }
+             
+        .td{
+            text-align: center;
+        }
+        .fondo_consola {
+            background-color:#da253d;
+            margin:auto;
+            width: 200px;
+            border-radius: 25px;
         }
 
-        .button {
-            background-color: #00ccff;
-            color: #fff;
-            padding: 10px 20px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: bold;
-        }
 
     </style>
 </head>
 <body>
-    
-    <div class="div1">
-        <h1 class="h1">Proyecto de Videojuegos Angelica o lo que sea que le queramos poner de nombre</h1>
-        <p class="p">subtitulo del Proyecto de Videojuegos</p>
-    </header>
-    </div>
+    <div class="cuadro">
+        <table align="center">
+        <tr>
+            <td class="fondo_consola">
+                <h1 class="titulo1"><b>PC</b></h1>
+            </td>
+        </tr>
+        </table>
+        <table class="tabla">
+            <tr>
+            <td width="700px" class="td">
+                <p class="titulo2">Age of Mythology</p>
+            <img src="https://drive.google.com/thumbnail?id=1BgurEXUY8Q9oscXgfgK7USV56PSga0--">
+                <p class="base">Descripción de Age of Mythology</p>
+            </td>
 
-    <div>
-        <a href="#ejemplo1">ejemplo1</a>
-        <a href="#ejemplo2">ejemplo2</a>
-        <a href="#ejemplo3">ejemplo3</a>
-        <a href="#ejemplo4">ejemplo4</a>
-    </div>
+            <td width="700px" class="td">
+                <p class="titulo2">Balatro</p>
+                <p class="base">Descripción de Balatro</p>
+            </td>
+        
+            <td width="700px" class="td">
+                <p class="titulo2">Elden Ring</p>
+                <p class="base">Descripción de Elden Ring skrrrrr rrrrrrr Eldeen Riiiing skrrrr rrrrr</p>
+            </td>
+            </tr>
+        </table>
 
-    <div class="div2">
-        <h2>Titulo videojuego</h2>
-        <img src="https://drive.google.com/thumbnail?id=/1000x400">
-        <br>
-        <p>información sobre el videojuego</p>
-        <br>
-        <a href="#ejemplo4" class="button">Ver Componentes</a>
+        <table class="tabla">
+        <tr>
+        <td width="700px" class="td">
+            <p class="titulo2">Prince of Persia</p>
+            <p class="base">Descripción de Prince of Persia</p>
+        </td>
+        
+        <td width="700px" class="td">
+            <p class="titulo2">World of Warcraft</p>
+            <p class="base">Descripción de World of Warcraft</p>
+        </td>
+        </tr>
+        </table>
     </div>
 </body>
 </html>
