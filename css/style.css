@@ -33,7 +33,11 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #2C3138;
+            background-color: #000000;
+            opacity: 1;
+            background-image:  linear-gradient(30deg, #1f1f1f 12%, transparent 12.5%, transparent 87%, #1f1f1f 87.5%, #1f1f1f), linear-gradient(150deg, #1f1f1f 12%, transparent 12.5%, transparent 87%, #1f1f1f 87.5%, #1f1f1f), linear-gradient(30deg, #1f1f1f 12%, transparent 12.5%, transparent 87%, #1f1f1f 87.5%, #1f1f1f), linear-gradient(150deg, #1f1f1f 12%, transparent 12.5%, transparent 87%, #1f1f1f 87.5%, #1f1f1f), linear-gradient(60deg, #1f1f1f77 25%, transparent 25.5%, transparent 75%, #1f1f1f77 75%, #1f1f1f77), linear-gradient(60deg, #1f1f1f77 25%, transparent 25.5%, transparent 75%, #1f1f1f77 75%, #1f1f1f77);
+            background-size: 40px 70px;
+            background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;
     -webkit-perspective: 90rem;
             perspective: 90rem;
     -webkit-perspective-origin: 34% 61%;
@@ -42,7 +46,9 @@ body {
 }
 
 img {
-    width: 160px;
+    height: auto;
+    max-height: 400px;
+    max-width: 350px;
 }
 
 button {
@@ -51,7 +57,7 @@ button {
     width: 180px;
     height: 48px;
     border-radius: 8px;
-    background-color: #2C3138;
+    background-color: #2c313800;
     margin-top: 40px;
     overflow: hidden;
     -webkit-transform: scale(.7);
@@ -94,19 +100,19 @@ button::before {
 .box-2:hover button::before {
     width: 120%;
     opacity: .8;
-    background-color: #653EE6;
+    background-color: #030097;
 }
 
 .box-3:hover button::before {
     width: 120%;
     opacity: .8;
-    background-color: #008BFF;
+    background-color: #b1a260;
 }
 
 .box-4:hover button::before {
     width: 120%;
     opacity: .8;
-    background-color: #FF6500;
+    background-color: #a50000;
 }
 
 .container {
@@ -120,8 +126,8 @@ button::before {
         justify-content: space-around;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 80vw;
-    height: 100vh;
+    width: 85vw;
+    height: 150vh;
     margin-left: 6vw;
     /* transform:rotateX(7deg) rotateZ(-4deg) rotateY(13deg) scale3d(1, 1, -0.9); */
     -webkit-transform: rotateX(23deg) rotateZ(-9deg) rotateY(15deg) scale3d(1, 1, -0.9);
@@ -145,8 +151,8 @@ button::before {
 }
 
 .box:hover .cover {
-    -webkit-transform: translateY(-14px) scale(1.04);
-            transform: translateY(-14px) scale(1.04);
+    -webkit-transform: translateY(-14px) scale(1.54);
+            transform: translateY(-14px) scale(1.54);
 }
 
 .box-1 button {
@@ -165,7 +171,7 @@ button::before {
 }
 
 .box-2 button {
-    border: 1px solid #653EE6;
+    border: 1px solid #0400fc;
     color: #fff;
     font-size: 22px;
     text-align: right;
@@ -175,12 +181,12 @@ button::before {
 
 .box-2 button::after {
     content: "";
-    background-color: #653EE6;
+    background-color: #0400fc;
     top: -85px
 }
 
 .box-3 button {
-    border: 1px solid #008BFF;
+    border: 1px solid #f8e386;
     color: #fff;
     font-size: 22px;
     text-align: right;
@@ -190,12 +196,12 @@ button::before {
 
 .box-3 button::after {
     content: "";
-    background-color: #008BFF;
+    background-color: #f8e386;
     top: -85px
 }
 
 .box-4 button {
-    border: 1px solid #FF6500;
+    border: 1px solid #ff0000;
     color: #fff;
     font-size: 22px;
     text-align: right;
@@ -205,7 +211,7 @@ button::before {
 
 .box-4 button::after {
     content: "";
-    background-color: #FF6500;
+    background-color: #ff0000;
     top: -85px
 }
 
@@ -261,7 +267,7 @@ button::before {
 }
 
 .box-4 .cover::after {
-    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-f79c4cc8de2f84ae.png');
+    background-image: url('https://drive.google.com/thumbnail?id=18lhaH2e7ZYvnIsRp6bup1LTryQWK2c5C');
 }
 
 .box-1 button div::before {
@@ -283,7 +289,7 @@ button::before {
     position: relative;
     top: -44px;
     left: -6px;
-    color: rgb(154, 123, 255);
+    color: #0400ff;
     font-size: 21px;
     font-weight: 300;
 }
@@ -297,7 +303,7 @@ button::before {
     position: relative;
     top: -44px;
     left: 3px;
-    color: #008BFF;
+    color: #f8e386;
     font-size: 21px;
     font-weight: 300;
 }
@@ -311,7 +317,7 @@ button::before {
     position: relative;
     top: -44px;
     left: -9px;
-    color: #FF6500;
+    color: #ff0000;
     font-size: 21px;
     font-weight: 300;
 }
